@@ -1,0 +1,69 @@
+.current {
+  border: 2px solid rgb(97, 62, 194);
+  border-radius: 5px;
+  max-width: 350px;
+  margin: auto;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+.current-text {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temperature {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.info {
+  border: 2px solid rgb(97, 62, 194);
+  border-radius: 5px;
+  max-width: 350px;
+  margin: auto;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.weather-forecast {
+  text-align: center;
+}
+
+.forecast {
+  text-align: center;
+}
+
+.forecast-temperature-min {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.forecast-date {
+  text-align: center;
+}
+
+.forecast-text {
+  text-align: center;
+  position: relative;
+  top: -10px;
+}

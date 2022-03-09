@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import ReactDOM from "react-dom";
+import Search from "./Search";
+import Temperature from "./Temperature";
+import CurrentCity from "./CurrentCity";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <CurrentCity />
+      <Temperature />
+      <Search />
+      <footer>
+        <small>
+          <a
+            href="https://github.com/B1-chan/react-app"
+            alt="github-link"
+            target="_blank"
+          >
+            Open-source code
+          </a>{" "}
+          by Bianca Mitsuoka
+        </small>
+      </footer>
     </div>
   );
 }
 
-export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
