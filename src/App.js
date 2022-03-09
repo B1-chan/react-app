@@ -15,6 +15,7 @@ export default function App() {
         <small>
           <a
             href="https://github.com/B1-chan/react-app"
+            rel="noreferrer"
             alt="github-link"
             target="_blank"
           >
