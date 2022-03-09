@@ -3,7 +3,7 @@ import "./Temperature.css";
 
 export default function Temperature() {
   return (
-    <div class="row justify-content-between">
+    <div class="row">
       <div className="current">
         <div className="col">
           <ul>
@@ -14,7 +14,7 @@ export default function Temperature() {
             src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/01d.png"
             id="icon"
             alt="sun"
-            width="20%"
+            width="10%"
           />
           <p className="current-text">
             <span className="description" id="description">
@@ -63,7 +63,7 @@ export default function Temperature() {
                 <img
                   src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/04d.png"
                   alt="cloudy"
-                  width="10%"
+                  width="50%"
                 />
                 <div className="forecast-temperatures">
                   <span className="forecast-temperature-max">8° </span>
@@ -75,7 +75,7 @@ export default function Temperature() {
                 <img
                   src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/13d.png"
                   alt="cloudy"
-                  width="10%"
+                  width="50%"
                 />
                 <div className="forecast-temperatures">
                   <span className="forecast-temperature-max">8° </span>
@@ -87,7 +87,7 @@ export default function Temperature() {
                 <img
                   src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/13d.png"
                   alt="cloudy"
-                  width="10%"
+                  width="50%"
                 />
                 <div className="forecast-temperatures">
                   <span className="forecast-temperature-max">8° </span>
@@ -99,7 +99,7 @@ export default function Temperature() {
                 <img
                   src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/01d.png"
                   alt="cloudy"
-                  width="10%"
+                  width="50%"
                 />
                 <div className="forecast-temperatures">
                   <span className="forecast-temperature-max">8° </span>
