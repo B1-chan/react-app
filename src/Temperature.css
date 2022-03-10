@@ -16,7 +16,7 @@ li {
   border: 2px solid rgb(97, 62, 194);
   border-radius: 5px;
   max-width: 350px;
-  margin: auto;
+  margin: 0 auto;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(242, 235, 243) 0%,

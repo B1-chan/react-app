@@ -3,8 +3,8 @@ import "./Temperature.css";
 
 export default function Temperature() {
   return (
-    <div className="row">
-      <div className="col">
+    <div className="row justify-content-center">
+      <div className="col-3">
         <div className="current">
           <ul>
             <li>Last updated:</li>
@@ -33,7 +33,7 @@ export default function Temperature() {
           </p>
         </div>
       </div>
-      <div className="col">
+      <div className="col-3">
         <div className="info">
           <ul>
             <li>
@@ -52,7 +52,7 @@ export default function Temperature() {
             <li>Forecast</li>
           </ul>
           <div className="weather-forecast" id="forecast">
-            <div class="row">
+            <div class="row justify-content-center">
               <div className="col-3">
                 <img
                   src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/04d.png"
