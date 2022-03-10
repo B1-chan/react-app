@@ -3,9 +3,9 @@ import "./Temperature.css";
 
 export default function Temperature() {
   return (
-    <div class="row">
-      <div className="current">
-        <div className="col">
+    <div className="row">
+      <div className="col">
+        <div className="current">
           <ul>
             <li>Last updated:</li>
             <li id="date">Sunday, Feb 20, 12:00</li>
@@ -14,7 +14,7 @@ export default function Temperature() {
             src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/01d.png"
             id="icon"
             alt="sun"
-            width="10%"
+            width="30%"
           />
           <p className="current-text">
             <span className="description" id="description">
@@ -35,7 +35,7 @@ export default function Temperature() {
       </div>
       <div className="col">
         <div className="info">
-          <ul className="current-info">
+          <ul>
             <li>
               Feels like: <span id="feels-like-celsius">3</span>°C |{" "}
               <span id="feels-like-fahrenheit">37</span>°F
@@ -52,7 +52,7 @@ export default function Temperature() {
             <li>Forecast</li>
           </ul>
           <div className="weather-forecast" id="forecast">
-            <div class="row justify-content-between">
+            <div class="row">
               <div className="col-3">
                 <img
                   src="https://suspicious-goldwasser-cb5f0f.netlify.app/images/04d.png"
@@ -60,8 +60,8 @@ export default function Temperature() {
                   width="50%"
                 />
                 <div className="forecast-temperatures">
-                  <span className="forecast-temperature-max">8° </span>
-                  <span className="forecast-temperature-min">2° </span>
+                  <span className="forecast-temperature-max">6° </span>
+                  <span className="forecast-temperature-min">0° </span>
                 </div>
                 <div className="forecast-date">Sun</div>
               </div>
@@ -84,7 +84,7 @@ export default function Temperature() {
                   width="50%"
                 />
                 <div className="forecast-temperatures">
-                  <span className="forecast-temperature-max">8° </span>
+                  <span className="forecast-temperature-max">10° </span>
                   <span className="forecast-temperature-min">2° </span>
                 </div>
                 <div className="forecast-date">Tue</div>
@@ -96,8 +96,8 @@ export default function Temperature() {
                   width="50%"
                 />
                 <div className="forecast-temperatures">
-                  <span className="forecast-temperature-max">8° </span>
-                  <span className="forecast-temperature-min">2° </span>
+                  <span className="forecast-temperature-max">7° </span>
+                  <span className="forecast-temperature-min">1° </span>
                 </div>
                 <div className="forecast-date">Wed</div>
               </div>

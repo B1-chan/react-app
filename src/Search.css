@@ -1,4 +1,4 @@
-.btn {
+.button {
   background: rgb(97, 62, 194);
   color: white;
   font-family: "Roboto Mono", monospace;
@@ -9,17 +9,9 @@
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
-  left: -15px;
 }
 
-form {
+.city-form {
   font-family: "Roboto Mono", monospace;
-  display: block;
-  float: right;
-  right: -55px;
-}
-
-.search-wrapper {
-  margin: auto;
-  text-align: center;
+  display: inline-block;
 }
