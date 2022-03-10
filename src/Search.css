@@ -11,7 +11,9 @@
   transition: all 200ms ease-in-out;
 }
 
-.city-form {
+form {
   font-family: "Roboto Mono", monospace;
-  display: inline-block;
+  position: relative;
+  float: right;
+  top: -35px;
 }

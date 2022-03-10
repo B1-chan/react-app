@@ -7,10 +7,12 @@ import CurrentCity from "./CurrentCity";
 
 export default function App() {
   return (
-    <div className="container">
-      <CurrentCity />
-      <Temperature />
-      <Search />
+    <div>
+      <div className="container">
+        <CurrentCity />
+        <Temperature />
+        <Search />
+      </div>
       <footer>
         <small>
           <a

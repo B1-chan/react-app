@@ -8,6 +8,10 @@ body {
   background-repeat: no-repeat;
 }
 
+footer {
+  text-align: center;
+}
+
 .container {
   border: 3px solid purple;
   border-radius: 20px;
