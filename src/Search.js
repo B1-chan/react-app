@@ -11,7 +11,7 @@ export default function Search() {
             <input
               type="search"
               placeholder="Enter city name"
-              class="form-control"
+              className="form-control"
               autofocus="on"
               id="city-input"
             />

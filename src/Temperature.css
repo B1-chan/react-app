@@ -33,6 +33,12 @@ li {
   font-weight: bold;
 }
 
+.units {
+  position: relative;
+  top: -20px;
+  line-height: 1;
+}
+
 .info {
   border: 2px solid rgb(97, 62, 194);
   border-radius: 5px;
