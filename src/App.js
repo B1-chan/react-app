@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <div className="container">
         <CurrentCity />
-        <Temperature />
+        <Temperature defaultCity="Osaka" />
         <Search />
       </div>
       <footer>
