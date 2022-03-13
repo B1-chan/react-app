@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate.js";
 import "./Temperature.css";
 
 export default function Temperature(props) {
@@ -8,11 +9,11 @@ export default function Temperature(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      date: "Sunday, 07:00",
+      date: new Date(response.data.dt * 1000),
       iconUrl:
         "https://suspicious-goldwasser-cb5f0f.netlify.app/images/01d.png",
       temperature: response.data.main.temp,
-      description: response.data.main.description,
+      description: response.data.weather[0].description,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       celsiusTemp: response.data.main.feels_like,
@@ -27,7 +28,9 @@ export default function Temperature(props) {
           <div className="current">
             <ul>
               <li>Last updated:</li>
-              <li id="date">{weatherData.date}</li>
+              <li>
+                <FormattedDate date={weatherData.date} />
+              </li>
             </ul>
             <img
               src={weatherData.iconUrl}
@@ -42,7 +45,7 @@ export default function Temperature(props) {
               <br />
               <span className="temperature" id="temperature">
                 {Math.round(weatherData.temperature)}
-              </span>{" "}
+              </span>
               <small>
                 <span className="units">
                   <span>°C</span> | <span>°F</span>
